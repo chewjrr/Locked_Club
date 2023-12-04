@@ -1,0 +1,104 @@
+body {
+    font-family: Lexend, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-image: url("pics/snapedit_1701694159562.png");
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* Navigation styles */
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+}
+
+nav h2 {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bol;
+}
+
+main h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bolt;
+}
+
+main p1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bolt;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #000000;
+  color: #fff;
+  padding: 6px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-button {
+  margin: 0 10px;
+  padding: 10px 10px;
+  background-color: #f1f1f1;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.footer-button:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 767px) {
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
+}
