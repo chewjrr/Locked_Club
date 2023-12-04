@@ -47,3 +47,13 @@ async function checkResource(url) {
   }
 }
 
+// Вызываем функцию настройки маршрутизации при загрузке страницы
+window.onload = setupRouting;
+
+// Обработка ошибки 404 для каждого элемента в releases
+releases.forEach(release => {
+  release.elements.forEach(element => {
+    const url = element.match(/src="([^"]+)"/)[1];
+    checkResource(url);
+  });
+});

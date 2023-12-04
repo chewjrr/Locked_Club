@@ -14,17 +14,7 @@ function setupRouting() {
     console.log("Вы находитесь на странице 'О нас'");
   } else {
     // Выполняем действия по умолчанию
-    console.log("Страница не найдена");
+    console.log("404: Страница не найдена");
   }
 }
 
-// Вызываем функцию настройки маршрутизации при загрузке страницы
-window.onload = setupRouting;
-
-// Обработка ошибки 404 для каждого элемента в releases
-releases.forEach(release => {
-  release.elements.forEach(element => {
-    const url = element.match(/src="([^"]+)"/)[1];
-    checkResource(url);
-  });
-});
