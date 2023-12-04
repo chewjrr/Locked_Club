@@ -73,20 +73,19 @@ nav a {
 
 main {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
 .player {
+  margin: 20px;
   width: 20%;
   height:auto;
 }
 .text {
   font-size: 24px;
+  margin-left: 100px;
   width: 50%;
-  margin-right: 20px;
   font-weight: bold;
-  margin-bottom: 40px;
   max-width: 100%;
   word-wrap: break-word;
   background-color: #000000;
