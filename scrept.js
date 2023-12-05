@@ -1,3 +1,4 @@
+// Определение функции setupRouting
 function setupRouting() {
   // Получаем текущий URL
   var currentUrl = window.location.href;
@@ -18,3 +19,5 @@ function setupRouting() {
   }
 }
 
+// Вызов функции setupRouting
+setupRouting();
