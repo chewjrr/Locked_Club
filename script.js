@@ -24,12 +24,12 @@ releases.forEach(year => {
 
     const iframe = document.createElement('iframe');
     iframe.src = iframeSrc;
-    iframe.width = '45%';
+    iframe.width = '40%';
     iframe.height = '610';
     iframe.style.border = 'none';
     iframesWrapper.appendChild(iframe);
 
-    iframe.style.marginLeft = '48px';
+    iframe.style.marginLeft = '40px';
     iframe.style.marginRight = '40px';
   });
 
