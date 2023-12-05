@@ -40,20 +40,11 @@ async function checkResource(url) {
   try {
     const response = await fetch(url);
     if (!response.ok) {
-      throw new Error('Ошибка загрузки ресурса');
+      throw new Error('404: Ошибка загрузки ресурса');
     }
   } catch (error) {
     console.error(error);
   }
 }
 
-// Вызываем функцию настройки маршрутизации при загрузке страницы
-window.onload = setupRouting;
 
-// Обработка ошибки 404 для каждого элемента в releases
-releases.forEach(release => {
-  release.elements.forEach(element => {
-    const url = element.match(/src="([^"]+)"/)[1];
-    checkResource(url);
-  });
-});
