@@ -1,8 +1,5 @@
-
+ffffffff
 ```mermaid.js
----
-title: База данных "test"
----
 erDiagram
 
 releases {
