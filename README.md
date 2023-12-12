@@ -1,5 +1,5 @@
-ffffffff
-```mermaid.js
+
+```mermaid
 erDiagram
 
 releases {
